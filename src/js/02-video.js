@@ -1,3 +1,6 @@
+import Player from '@vimeo/player';
+import throttle from 'lodash.throttle';
+
 <iframe
   id="vimeo-player"
   src="https://player.vimeo.com/video/236203659"
