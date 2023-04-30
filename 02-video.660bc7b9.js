@@ -1,0 +1,2 @@
+const e=document.querySelector("iframe"),o=new Player(e,{loop:!0,fullscreen:!0,quality:"1080p"});o.on("timeupdate",throttle((function(e){const o=e.seconds;localStorage.setItem("videoplayer-current-time",JSON.stringify(o))}),1e3)),o.setCurrentTime(JSON.parse(localStorage.getItem("videoplayer-current-time"))||0),o.setColor("#d8e0ff").then((function(e){console.log("The new color value: #D8E0FF")})).catch((function(e){console.log("An error occurred while setting the color")}));
+//# sourceMappingURL=02-video.660bc7b9.js.map
