@@ -23,8 +23,3 @@ player
         break;
     }
   });
-
-player
-  .setColor('#45a247')
-  .then(function (color) {})
-  .catch(function (error) {});
